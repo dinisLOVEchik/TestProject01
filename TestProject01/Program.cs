@@ -13,9 +13,9 @@ string addressStart = Console.ReadLine();
 Console.WriteLine("Маска адреса :");
 string addressMask = Console.ReadLine();*/
 
-internal class Program
+public class Program
 {
-    private static void Main(string[] args)
+    public static void Main(string[] args)
     {
         string fileLog = ConfigurationManager.AppSettings["FileLog"];
         string fileOutput = ConfigurationManager.AppSettings["FileOutput"];
